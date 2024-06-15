@@ -2,7 +2,7 @@
 -- around line 112 is where you put your script
 
 
-local suskey = "hya"
+local suskey = "DRKscripts"
 
 
 local GUI = Instance.new("ScreenGui")
@@ -23,7 +23,7 @@ local UICorner_6 = Instance.new("UICorner")
 
 
 
-GUI.Name = "GUI"
+GUI.Name = "DRK HUB"
 GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Main.Name = "Main"
@@ -148,6 +148,7 @@ GuiRemoval.MouseButton1Down:connect(function()
 	
 	game.StarterGui:SetCore("SendNotification", {Title = "i hate you", Text = "i hate you now because you closed the script", Icon = "", Duration = 5})
 end)
+
 
 UICorner_6.Parent = GuiRemoval
 pcall(function()if game.PlaceId == 155615604 then
